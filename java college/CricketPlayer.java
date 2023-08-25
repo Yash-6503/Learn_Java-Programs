@@ -26,7 +26,7 @@ class CricketPlayer {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Batting Average: " + getBattingAverage();
+        return "Name: " +name+ ", Batting Average: " + getBattingAverage();
     }
 
     public static void sort(CricketPlayer[] players) {
